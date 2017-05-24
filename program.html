@@ -68,7 +68,6 @@
 	margin:50px auto;
 	padding:0;
 	overflow:hidden;
-	border:1px black solid;
 	}
   .body_up_1{
 	float:left;
@@ -125,7 +124,7 @@
 	.body_up_2 li{
 		margin:9px 0;
 		font-size:10px;
-		/*此部分是关于文本不换行并隐藏超出部分，仅仅针对块状元素才有效果*/
+		/*下面三项是关于文本不换行并隐藏超出部分，仅仅针对块状元素才有效果*/
 		overflow:hidden;
 		text-overflow:ellipsis; 
 		white-space:nowrap;
@@ -140,7 +139,7 @@
 		line-height:20px;
 		text-align:center;
 		color:white;
-		background-color:blue;
+		background-color:#01ace2;
 	}
 	.body_up_2 .orange{
 		color:white;
@@ -152,9 +151,94 @@
 		text-align:center;
 	}
 
+/* 此部分为身体_中间部分一整块 */
 
+	.body_mid{
+		width:1020px;
+		margin:0 auto;
+		padding:0;
+		overflow:hidden;
+	}
+
+/* 身体_中间_偏上部分 */
+
+	.body_mid_1 .p1{
+		text-align:center;
+		color:blue;
+		font-size:35px;
+	}
+	.body_mid_1 .p2{
+		text-align:center;
+		color:blue;
+		margin:10px;
+		font-weight:bold;
+		font-size:20px;
+	}
+	.body_mid_2{
+		float:left;
+		width:400px;
+		height:320px;
+		margin:20px 0 0 0;
+		overflow:hidden;
+		background: url(img/b.jpg) no-repeat;
+	}
+	.body_mid_3{
+		float:right;
+		width:530px;
+		height:270px;
+		margin:20px 0 0 0;
+		padding:40px 0 0 20px;
+		overflow:hidden;
+	}
+	.body_mid_3 h1{
+		color:#00abdf;
+		margin:0 0 30px 0;
+	}
+	.body_mid_3 li{
+		color:#01ace2;
+		margin:-5px 0 0 20px;
+		text-overflow:ellipsis; 
+		white-space:nowrap;	
+		height:29px;
+		line-height:29px;
+		font-size:25px;
+		
+	}
+	.body_mid_3 a{
+		text-decoration:none;
+		color:black;
+		font-size:15px;
+	}
+	.body_mid_3 .watch1{
+		display:block;
+		width:120px;
+		height:35px;
+		line-height:35px;
+		margin:30px 0 0 0;
+		text-align:center;
+		color:white;
+		text-decoration:none;
+		border-radius: 10px;
+		background-color:#01ace2;
+	}
+
+/* 身体_下部分的一整块 */
+
+	.body_down{
+		width:1020px;
+		margin:0 auto;
+		padding:0;
+		overflow:hidden;
+		border:black solid 1px;
+	}
+
+
+ /*----------------------------------------- 华 丽 分 割 线 ---------------------------------------*/
+ /*----------------------------------------- 华 丽 分 割 线 ---------------------------------------*/
+ /*----------------------------------------- 华 丽 分 割 线 ---------------------------------------*/
   </style>
  </head>
+
 
 
  <body>
@@ -177,10 +261,10 @@
 		</ul>
 	</div>
 
-	<!-- 身体上部分 -->
+	<!-- 身体的整个上部分 -->
 	<div class="body_up">
+
 		<!--身体上部分_左边的一整块 -->
-		
 		<div class="body_up_1">
 			<h2> 课程推荐 </h2>
 
@@ -277,6 +361,52 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+
+<!-- 此部分为身体_中间部分一整块 -->
+	<div class="body_mid">
+
+	<!-- 身体_中间_偏上部分 -->
+		<div class="body_mid_1">
+			<h1 class="p1"> 精准求精 追求完美 </h1>
+			<p class="p2"> 我们用心服务 </p>
+		</div>
+
+	<!-- 身体_中间_偏左部分 -->
+		<div class="body_mid_2"></div>
+
+	<!-- 身体_中间_偏右部分 -->
+		<div class="body_mid_3">
+			<h1> 诺恩动态 </h1>
+			<ul>
+				<li> <a href="http://www.baidu.com"> 
+				2002年成立武汉环球英语培训学校，2006年9月获得软银赛富数亿投资 </a></li>
+				<li> <a href="http://www.baidu.com">
+				组成环球天下教育科技Global Education & Technology Group,拥有在全球</a> </li>
+				<li> <a href="http://www.baidu.com"> 
+				56个城市从事外语和职业教育培训的连锁学校。作为国内领军的连锁外语培训机构，</a></li>
+				<li> <a href="http://www.baidu.com">
+				被评为全国十大知名学校；荣获2006年中国领军培训机构。</a> </li>
+			</ul>
+			<input type="buttom" name="check" value="查看全部动态" class="watch1">  
+		</div>
+	</div>
+
+<!-- 身体_下部分的一整块 -->
+	<div class="body_down">
+		<div>
+			<h1></h1>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<input type="button" name="check" value="查看全部状态" class="watch2">
+		</div>
+
+		<div></div>
 	</div>
 
 
