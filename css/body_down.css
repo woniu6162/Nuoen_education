@@ -1,0 +1,57 @@
+/* 身体_下部分的一整块 */
+
+	.body_down{
+		width:1020px;
+		margin:0 auto;
+		padding:0;
+		overflow:hidden;
+		background-color:#f4f4f4;
+	}
+	.body_down_1{
+		float:left;
+		width:380px;
+		height:270px;
+		margin:20px 0 0 110px;
+		padding:40px 0 0 20px;
+		overflow:hidden;	
+	}
+	.body_down_2{
+		float:left;
+		width:400px;
+		height:320px;
+		margin:20px 0 0 20px;
+		overflow:hidden;
+		background: url(../img/b2.jpg) no-repeat;	
+	}
+	.body_down_1 h1{
+		color:#ffc146;
+		margin:0 0 30px 0;
+	}
+
+	.body_down_1 li{
+		color:#ffc146;
+		margin:-5px 0 0 20px;
+		text-overflow:ellipsis; 
+		white-space:nowrap;	
+		height:29px;
+		line-height:29px;
+		font-size:25px;
+		
+	}
+	.body_down_1 a{
+		text-decoration:none;
+		color:black;
+		font-size:15px;
+	}
+	.body_down_1 .watch2{
+		display:block;
+		width:120px;
+		height:35px;
+		line-height:35px;
+		margin:30px 0 0 0;
+		text-align:center;
+		color:white;
+		text-decoration:none;
+		border-radius: 10px;
+		background-color:#ffc146;
+	}
